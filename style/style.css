@@ -276,6 +276,7 @@ div.card:hover {
     .btn-box {
         margin: auto;
         margin-bottom: 50px;
+        width: 100vw;
     }
 
     .card p {
@@ -289,10 +290,10 @@ div.card:hover {
 
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 860px) {
     header.header {
         padding: 20px 6%;
-        margin-bottom: 50px;
+        margin-bottom: 130px;
     }
     
     .card {
@@ -310,5 +311,11 @@ div.card:hover {
 
     nav.mobile-nav-bar {
         display: block;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    header.header {
+        margin-bottom: 150px;
     }
 }
